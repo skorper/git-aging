@@ -3,6 +3,11 @@
 #test.py
 #Improved version of the aging grep test with blktrace, backups, and config files. Running without a config file will generate one with default values.
 
+#
+# Modified April 2018 to Multi-Git test -- run N repos from config.sh in parallel
+# @Stepheny Perez and Strahinja Trecakov
+#
+
 import os.path
 import subprocess
 import shlex
