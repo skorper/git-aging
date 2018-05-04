@@ -259,7 +259,7 @@ print('initialization complete' + tcolors.end)
 
 ################################################################################
 # main loop
-for i in range(0, total_pulls + 1, pulls_per_grep): 
+for i in range(0, total_pulls + 1): 
 
  # iteratively pull each repo (todo: parallel? would that represent a true workload?)
  # checkout procedure
